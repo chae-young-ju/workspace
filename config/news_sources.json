@@ -1,0 +1,45 @@
+{
+  "searchQueries": [
+    "생성형 AI 뉴스",
+    "ChatGPT 최신 뉴스",
+    "Claude AI 발표",
+    "GPT-5 소식",
+    "대규모언어모델 LLM",
+    "AI 업체 뉴스",
+    "OpenAI 뉴스",
+    "Google Gemini",
+    "AI 혁신 기술"
+  ],
+  "excludeKeywords": [
+    "스팸",
+    "광고",
+    "채용공고",
+    "AI 주식",
+    "암호화폐",
+    "게임 AI"
+  ],
+  "prioritySources": {
+    "한국일보": 1.0,
+    "중앙일보": 1.0,
+    "조선일보": 1.0,
+    "동아일보": 1.0,
+    "매일경제": 1.0,
+    "서울경제": 0.9,
+    "테크크런치": 0.95,
+    "더버지": 0.95,
+    "포브스": 0.9,
+    "CNBC": 0.9,
+    "BBC": 0.85,
+    "로이터": 0.85,
+    "AP통신": 0.85,
+    "블로그": 0.6,
+    "유튜브": 0.5
+  },
+  "settings": {
+    "maxArticlesPerDay": 15,
+    "minWordCount": 80,
+    "language": "ko",
+    "sortBy": "relevance",
+    "timeRange": "24h"
+  }
+}
